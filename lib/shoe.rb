@@ -6,8 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    while BRANDS.size <= 3
-      BRANDS << brand
+    BRANDS << brand
     end
   end
 
