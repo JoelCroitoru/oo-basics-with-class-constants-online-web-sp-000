@@ -16,7 +16,7 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
-    while BRANDS.size <= 3
+    until BRANDS.size == 3
       BRANDS << brand
     end
   end
